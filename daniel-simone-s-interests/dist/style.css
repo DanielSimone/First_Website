@@ -1,0 +1,85 @@
+#name {
+  text-align:center;
+  color: 	#4a203d;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 { text-align:center;
+color: #bbbec7;}
+.impact {
+  font-family: Arial, Charcoal, sans-serif;
+  color: slategray;
+}
+#heading {
+  background-color: #bebeca;
+  font-size: 20pt;
+  margin: 30pt;
+  padding: 5pt;
+}
+#pc {
+  background-color: #d8beea;
+  padding: 5pt;
+}
+#printing {
+  background-color: #ff892b;
+  padding: 5pt;
+}
+#Photoshop {
+  background-color: #82e092;
+  padding: 5pt;
+}
+#Onewheel {
+  background-color: #4179c5;
+  padding: 5pt;
+}
+.magentaback {
+  background-color: #FF00FF;
+}
+#squares {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: blue
+}
+
+.greenback {
+  background-color: #00FF00;
+}
+
+#colorland {
+  width: 500px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: black
+}
+
+#uploader {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: white
+}
+
+#fgcanvas{
+  width: 720;
+  height: 480;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#bgcanvas{
+  width: 720;
+  height: 480;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#filtercanvas {
+  width: 1920;
+  height: 1080;
+  border: 1px solid black;
+  background-color: white;
+}

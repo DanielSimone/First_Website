@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Daniel Simone&#39;s Interests</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+
+<div id="heading">
+  <h1 id="name">Daniel Simone's Interests </h1>
+  <img src="https://balkhifoundation.com/wp-content/uploads/2020/05/Daniel.jpg" class="center">
+    <p class="impact">Hey guys! I'm excited to start learning coding, but here are some other things I also like to do to fill up by free time in quarantine!</p>
+    </div>
+  <div id = "pc">
+      <h3>Building PCs</h3>
+    <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/129696358/original/a90de67c187b56d0ea261ba16aa29ba94e113712/build-a-custom-pc.jpg" width="40%" class="center">
+    <p class="impact">I am much more of a <em> hardware </em> than a <em> software </em> guy, and one of the things I love to do is work on assembling, troubleshooting, and benchmarking <b> custom PCs </b> (I run a 5820k, 980Ti, 16gb ram, and 2 NVME SSDs!) Hit me up for some BF4 or CS:GO!</p>
+    <p class="impact"> Here are some essential parts of every computer!
+    <ul class="impact"> <b> Essential PC Parts </b>
+        <li> CPU
+          <li> GPU (or graphics card)
+            <li> RAM (Random Access Memory)
+              <li> Motherboard
+                <li> Storage (SSDs, HDDs, etc)
+                  <li> Cooling and Case (can be a laptop body, in the case of laptops)
+                  <li> Peripherals (monitor, keyboard, mouse, etc)
+        </p>
+  </div>
+  <div id = "printing">
+      <h3>3D Printing & CAD</h3>
+    <img src="https://filament2print.com/4045-tm_thickbox_default/prusa-i3-mk3s.jpg" width ="40%" class="center">
+      <p class="impact">One of the things I like to do on my custom PC is modeling up parts to 3D print with <em> Fusion 360 </em> (or maybe nabbing a good one off thingiverse!) I use a <b> Prusa MK3S </b> (pretty proud of assembling it myself!) </p>
+    <p class="impact"> Many people are confused on how the printer works, so here are the five basic steps of printing:
+    <ol class="impact"> <b> Five Basic Steps of 3D Printing </b>
+        <li> Finding something to print (you can find files on a website like Thingiverse or design them yourself on CAD software like Fusion 360)
+          <li> Slicing your 3D object (this is done with software on your computer like PrusaSlicer for my printer, which slices your object into 2D "slices" for the printer to print, one on top of the other)
+            <li> Sending the output to your printer (the code from the slicer can be transferred to a printer by USB, SD card, or WiFi depending on your printer)
+              <li> Printing (your printer will heat up the plastic, extrude it, and make your object)
+                <li> Post-processing (you have to take the part off the printer, then sand, paint, or otherwise process it to your final result)
+        </p>
+    <p class="impact"> P.S. If someone else with a printer sees this, <a href="https://imagetostl.com/"> check out this cool site that converts 2D objects to STL files! </a>
+      </p>
+  </div>
+  <div id="Photoshop">
+      <h3>Photoshop</h3>
+    <img src="https://techcrunch.com/wp-content/uploads/2019/11/photoshop-ipad-subject-select.jpg?w=730&crop=1" width="40%" class="center">
+      <p class="impact">Another thing I do on my computer is graphic design with Photoshop - mostly personal stuff like <b> stickers </b> that I print out on sticker paper, but also things like <b> club shirt designs </b> every now and then.</p>
+  </div>
+  <div id="Onewheel">
+    <h3>Onewheel "Floating"</h3>
+    <img src="https://boardsportscalifornia.com/wp-content/uploads/2017/08/onewheel.jpg" width="50%" class="center">
+    <p class="impact">Something I picked up over quarantine was riding a Onewheel! It's very fun and gets me outside (away from my PC ( ͡° ͜ʖ ͡°)). It's <b> like an electric skateboard, but it has only one go-kart wheel in the middle </b> (so you look like you're <em> "floating" </em>) which allows it to go offroad and be more maneuverable.</p>
+    <p class="impact"> I have often been told things like, "Why don't you just use a car?" so I made a table comparing the advantages of both:
+      <table class="impact"> 
+        <tr> <th> Onewheel </th> <td> Quieter </td> <td> Cheaper </td> <td> Smaller </td> <td> Goes on sidewalks </td> <td> A lot more fun! </td> </tr>
+        <tr> <th> Car </th> <td> Wayyy Faster </td> <td> More range </td> <td> More storage capacity </td> <td> You can leave it unattended easily </td> <td> You can bring friends! </td> </tr>
+    </table>
+  </div>
+<div id="CP">
+  <h3>Coding Playground</h3>
+  <p class="impact"> Here, I present some of my most innovative, most complex coding operations! I present: buttons & canvases!
+  </p>
+  <p>
+  <input type = "button" value = "Summon the stonks man!" onclick = "meme()">
+    <input type = "button" value = "Make me magenta!" onclick = "magentaback()">
+  </p>
+</div>
+
+  <p>
+    <canvas id="squares">
+    </canvas>
+    <input type = "button" value = "Show me my squares!" onclick = "greenback()">
+    
+    <canvas id="colorland">
+    </canvas>
+    <input type = "color" value = "red" id = "clr" onchange = "docolor()">
+    <input type = "range" min = "10" max = "100" value = "10" id = "sldr" oninput = "dorect()">
+    
+    <canvas id="uploader">
+    </canvas>
+    <input type = "file" multiple = "false" accept = "image/*" id = "finput" onchange = "upload()">
+    <input type = "button" value = "Make Grayscale" onclick = "makeGray()">
+</p>
+<p>
+<h3>The Greenscreenster!</h3>
+<canvas id="fgcanvas">
+</canvas>
+<canvas id="bgcanvas">
+</canvas>
+</p>
+<p>
+Foreground: <input type = "file" multiple = "false" accept = "image/*" id = "fgfile" onchange = "loadForegroundImage()">
+Background: <input type = "file" multiple = "false" accept = "image/*" id = "bgfile" onchange = "loadBackgroundImage()">
+</p>
+<div>
+  <p>
+  <h3>Filter-Mania!</h3>
+  <canvas id="filtercanvas">
+  </canvas>
+  <input type = "button" value = "Button 1" onclick = "func1()">
+  <input type = "button" value = "Button 2" onclick = "func2()">
+  <input type = "button" value = "Button 3" onclick = "func3()">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
